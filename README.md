@@ -22,7 +22,7 @@ zabbix通过 AWS 云 api 自动发现、监控 AWS-SQS
 
 ### 使用方法
 1. 从 AWS 云控制台获取 AccessKey ,并修改脚本中的 Access 与 Secret
-2. 修改区域 RegionId
+2. 修改区域 Region
 3. 将两个脚本放置于以下目录
 `/etc/zabbix/script`
 `chmod +x /etc/zabbix/script/*`
