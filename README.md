@@ -5,7 +5,7 @@ AWS SQS status monitor with zabbix
 zabbix通过 AWS 云 api 自动发现、监控 AWS-SQS
 
 本版本数据的图表展示，是以**监控项进行分组**
-## 相关参考链接
+## 相关链接
 [Boto 3 Docs](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/sqs.html#SQS.Client.list_dead_letter_source_queues)
 
 ## 使用方法
