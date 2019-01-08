@@ -63,7 +63,7 @@ for k, v in metrics.items():
             print "[ERROR] %s" % e
             sys.exit(1)
         # 结果为空或者不支持,一律返回0.404
-        if not res:
+        if res['Datapoints']:
             average = res['Datapoints'][-1]["Average"]
         else:
             average = 0.404
