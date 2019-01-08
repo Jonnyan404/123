@@ -26,8 +26,8 @@ zabbix通过 AWS 云 api 自动发现、监控 AWS-SQS
 1. 从 AWS 云控制台获取 AccessKey ,并修改脚本中的 Access 与 Secret
 2. 修改区域 Region
 3. 将两个脚本放置于以下目录
-`/etc/zabbix/script`
-`chmod +x /etc/zabbix/script/*`
+    `/etc/zabbix/script`
+    `chmod +x /etc/zabbix/script/*`
 4. 把 zabbix3.4 目录下的 AWSSQS.conf 文件放到被监控主机 /etc/zabbix/zabbix_agentd.d/ 目录下
 5. 重启zabbix-agent
 6. zabbix控制台导入模板，并关联主机
