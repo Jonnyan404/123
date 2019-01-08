@@ -22,11 +22,6 @@ python = 2.7
 3. 将两个脚本放置于以下目录
 `/etc/zabbix/script`
 `chmod +x /etc/zabbix/script/*`
-4. 修改zabbix-agentd.conf，添加以下内容
-```shell
-#sqs
-UserParameter=rds.discovery,/usr/local/python2.7/bin/python2.7 /etc/zabbix/script/discovery_rds.py
-UserParameter=check.rds[*],/usr/local/python2.7/bin/python2.7 /etc/zabbix/script/check_rds.py $1 $2 $3
-```
+4. 把 zabbix3.4 目录下的.conf 文件
 5. 重启zabbix-agent
 6. zabbix控制台导入模板，并关联主机
