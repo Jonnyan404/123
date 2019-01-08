@@ -22,6 +22,6 @@ python = 2.7
 3. 将两个脚本放置于以下目录
 `/etc/zabbix/script`
 `chmod +x /etc/zabbix/script/*`
-4. 把 zabbix3.4 目录下的.conf 文件
+4. 把 zabbix3.4 目录下的 AWSSQS.conf 文件放到 /etc/zabbix/zabbix_agentd.d 目录下
 5. 重启zabbix-agent
 6. zabbix控制台导入模板，并关联主机
